@@ -1,16 +1,10 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[8]:
-
-
 import cv2
 #import matplotlib library
 import matplotlib.pyplot as plt
 import numpy as np
 #importing time library for speed comparisons of both classifiers
 import time 
-get_ipython().run_line_magic('matplotlib', 'inline')
+
 def convertToRGB(img):
     return cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 #mathplotlib requires the above function as it accepts only RGB values while cv.imread accepts BGR values
@@ -26,7 +20,6 @@ for (x, y, w, h) in faces:
 plt.imshow(convertToRGB(test1))
 
 
-# In[ ]:
 
 
 
