@@ -11,3 +11,7 @@ A test image test1.jpg is given as example. It can be replaced by any .jpg image
 Face-Recognition:
 
 I used the Haar classifier for face detectiona nd then the Local Binary Patterns Histograms (LBPH) Face Recognizer for the recognizer to tarin and predict the images
+
+Using Convulsion Neural Network(CNN):
+
+Here we use CNN for furthur accuracy and precision in identifying faces.More details are provided in the folder named Face_Recognition_CNN
